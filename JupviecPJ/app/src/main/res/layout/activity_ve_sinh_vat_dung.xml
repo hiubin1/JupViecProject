@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activty.VeSinhVatDungActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E0E0E0"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/location24"
+                                android:text="ĐIA CHỈ"
+                                android:drawablePadding="8dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="14dp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:singleLine="true"
+                                    android:textSize="13dp"
+                                    android:text="Xô Viết Nghệ Tĩnh, Bình Thạnh, Thành phố Hồ Chí Minh"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14dp"
+                                    android:textColor="#808080"
+                                    android:text="PM20"/>
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnThayDoiDiaChiVSSofa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Thay Đổi"
+                                android:gravity="center"
+                                android:textSize="13dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="right"
+                                android:backgroundTint="@color/BlueApp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LỊCH LÀM VIỆC"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:drawableLeft="@drawable/calendar24"
+                            android:drawablePadding="8dp"/>
+
+                        <CalendarView
+                            android:id="@+id/CalenderLLVVeSinhSofa"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:backgroundTint="@color/white"
+                            android:selectedWeekBackgroundColor="#2FFF00" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GIÁ THAM KHẢO"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:drawableLeft="@drawable/moneybag24"
+                            android:drawablePadding="8dp"/>
+
+                        <Button
+                            android:id="@+id/btnXemBangGiaVSSofa"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Thay Đổi"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_gravity="right"
+                            android:backgroundTint="@color/BlueApp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GHI CHÚ"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:drawableLeft="@drawable/note24"
+                            android:drawablePadding="8dp"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@drawable/custom_edt"
+                            android:textSize="14dp"
+                            android:padding="20dp"
+                            android:layout_gravity="left|top"
+                            android:gravity="left"
+                            android:textColor="#808080"
+                            android:id="@+id/VeSinhSofaNote"
+                            android:hint="@string/note1"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="5dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnDangKyVeSinhSofa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/BlueApp"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Đăng ký"
+            android:textSize="16dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</FrameLayout>

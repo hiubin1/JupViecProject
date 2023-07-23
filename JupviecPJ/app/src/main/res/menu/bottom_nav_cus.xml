@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home64"
+        android:title="@string/Home"/>
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/clock64"
+        android:title="@string/History"/>
+
+    <item
+        android:id="@+id/nav_activty"
+        android:icon="@drawable/clipboard64"
+        android:title="@string/Activity"/>
+
+    <item
+        android:id="@+id/nav_notice"
+        android:icon="@drawable/handbell64"
+        android:title="@string/Notice"/>
+
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/more64"
+        android:title="@string/More"/>
+</menu>

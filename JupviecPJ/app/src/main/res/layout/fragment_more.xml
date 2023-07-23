@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentCus.FragmentMore">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_dash_2"/>
+
+    <LinearLayout
+        android:id="@+id/QRCODE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+/>
+
+
+
+        <Button
+            android:id="@+id/btnBlockNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnBlockNV_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/brokenheart24"
+            android:gravity="left|center"
+            android:text="Nhân viên đã chặn"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:background="#D3D3D3"/>
+
+        <Button
+            android:id="@+id/btnQuest"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="btnQuest_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/questionblue24"
+            android:gravity="left|center"
+            android:text="Câu hỏi thường gặp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:background="#D3D3D3"/>
+
+        <Button
+            android:id="@+id/btnBenefits"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="btnBenefits_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/note24"
+            android:gravity="left|center"
+            android:text="Quyền lợi của Khách hàng"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:background="#D3D3D3"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnJuridical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="btnJuridical_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/hammer24"
+            android:gravity="left|center"
+            android:text="Pháp lý"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:background="#D3D3D3"/>
+
+        <Button
+            android:id="@+id/btnComplain"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="btnComplain_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/suggest24"
+            android:gravity="left|center"
+            android:text="Góp ý, Khiếu nại, Hổ trợ qua App"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="25dp"
+            android:background="#D3D3D3"/>
+
+        <Button
+            android:id="@+id/btnHelpCenter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="btnHelpCenter_onclick"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawableLeft="@drawable/mail24"
+            android:gravity="left|center"
+            android:text="Trung tâm hỗ trợ"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phiên bản 4.1.98 (1688888908)"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/BlueApp"/>
+    </LinearLayout>
+</LinearLayout>

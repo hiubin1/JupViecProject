@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+
+    android:layout_marginRight="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bg_stroke_gray"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="14dp"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/arrowdown18" />
+
+                <com.example.jupviecpj.custom_textview.OpenSansTextView
+                    android:id="@+id/tvPercentNgayLV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="12dp"
+                    android:textColor="#42FF00"
+                    android:text="13"/>
+
+                <com.example.jupviecpj.custom_textview.OpenSansTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="#42FF00"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+            <com.example.jupviecpj.custom_textview.OpenSansTextView
+                android:id="@+id/tvdayOfWeekNgayLV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textColor="@color/SmokyBlue"
+                android:textStyle="bold"
+                android:text="T2"/>
+
+            <com.example.jupviecpj.custom_textview.OpenSansTextView
+                android:id="@+id/tvDayNgayLV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/SmokyBlue"
+                android:gravity="center"
+                android:text="H.nay"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

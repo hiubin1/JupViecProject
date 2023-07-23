@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JupviecPJ"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activty.XacNhanDichVuGVTGActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.ChonLichLamGiupViecTheoGioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.GopYHoTroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.ChiTietNhanVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.TrungTamHoTroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.PhapLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.QuyenLoiCuaKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.CauHoiThuongGapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.ChiTietCaLamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.BlockNhanVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.ChiTietKhuyenMaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.VeSinhVatDungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.TongVeSinhActivty"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.GiupViecDinhKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.GiupViecTheoGioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.ThongTinCaNhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.VideoFullScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.CustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activty.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

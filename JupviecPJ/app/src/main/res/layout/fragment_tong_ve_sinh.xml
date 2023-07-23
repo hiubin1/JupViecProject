@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentInHistory.FragmentTongVeSinh">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/Tab_Layout_TongVS"
+        android:layout_width="match_parent"
+        app:tabSelectedTextColor="@color/SmokyBlue"
+        app:tabBackground="@drawable/custom_tablayout"
+        app:tabIndicatorColor="@color/SmokyBlue"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:background="@drawable/custom_dash"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorHeight="3dp"
+        android:layout_height="50dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/View_Pager_TongVS"
+        android:layout_width="match_parent"
+        android:layout_marginTop="65dp"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

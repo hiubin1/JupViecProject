@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#7b4bff</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#FFF</color>
+    <color name="color_selected_bottom_nav">#97b2de</color>
+    <color name="BlueApp">#1a488e</color>
+    <color name="BlackBlueText">#092147</color>
+    <color name="SmokyBlue">#97b2de</color>
+</resources>
